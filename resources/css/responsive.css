@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1200px){
+    header{
+        height: 85vh;
+    }
+
+    .hero-text-box{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    header{
+        height: 55vh;
+    }
+
+    .row{
+        margin: 0 15px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    html {
+        font-size: 57.5%;
+    }
+
+    .client-photo,
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .hero-text-box{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html {
+        font-style: 62.5%;
+    }
+
+    .hero-text-box{
+        width: 90%;
+    }
+
+  
+}
+
+@media only screen and (max-width: 768px){
+    .little-description{
+       
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .span_1_of_4{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    header{
+        height: 80vh;
+    }
+    .testimonial-section h2{
+        font-size: 3rem;
+    }
+
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .testimonial-section .col:nth-child(3),
+    .testimonial-section .col:nth-child(4){
+               margin-top: 4rem;
+        }
+}
+
+@media only screen and (max-width: 320px){
+    header{
+        height: 100vh;
+    }
+
+    .portfolio-filter button:nth-child(1),
+    .portfolio-filter button:nth-child(2){
+       margin-bottom: .5rem;
+       width: 15rem;
+    }
+
+   
+}
+
+@media only screen and (max-width: 375px){
+
+    .portfolio-filter button{
+    
+        width: 15rem;
+    }
+    .portfolio-filter button:nth-child(1),
+    .portfolio-filter button:nth-child(2){
+       margin-bottom: .5rem;
+       
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .portfolio-filter button{
+    
+        width: 15rem;
+    }
+    .portfolio-filter button:nth-child(1),
+    .portfolio-filter button:nth-child(2){
+       margin-bottom: .5rem;
+       
+    }
+}
+
